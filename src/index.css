@@ -66,3 +66,44 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.calculator {
+  font-weight: bold;
+  font-size: large;
+  color: #242424;
+  width: 800px;
+  height: 90px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculator input[type="number"],
+.calculator button {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.calculator button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.calculator button:hover {
+  background-color: #45a049;
+}
+
+.calculator p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #242424;
+}
+
+
